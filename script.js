@@ -58,3 +58,16 @@ let result=getNames([
 
 console.log(result) //[ 'Alice', 'Bob', 'Charlie' ]
 
+// Problem 11 — Easy: Filter Adults
+const getAdults = people => people.filter(person => person.age >= 18 );
+
+let result=getAdults([
+  { name: "Alice", age: 22 },
+  { name: "Bob", age: 16 },
+  { name: "Charlie", age: 30 },
+  { name: "David", age: 17 }
+]);
+
+console.log(result) // [ { name: 'Alice', age: 22 }, { name: 'Charlie', age: 30 } ]
+
+
