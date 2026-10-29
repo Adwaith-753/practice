@@ -44,4 +44,6 @@ console.log(doubleNumbers([1, 2, 3, 4])) // [ 2, 4, 6, 8 ]
 const filterGreaterThan10 = numbers => numbers.filter(number => number > 10);
 console.log(filterGreaterThan10([5, 12, 8, 20, 15]));   // [12, 20, 15]
 
-
+// Problem 9 — Easy: Sum All Numbers in an Array
+const sumArray = numbers => numbers.reduce((acc, curr) => acc + curr, 0);
+console.log(sumArray([1, 2, 3, 4]));   
