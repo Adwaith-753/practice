@@ -35,4 +35,4 @@ const countEven =(number)=> {
   return count;
 }
 
-console.log(countEven([2, 4, 8]));
+console.log(countEven([2, 4, 8])); // 3
