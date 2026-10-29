@@ -24,3 +24,15 @@ const findLargest =(a, b)=> a > b ? a:b;
 console.log(findLargest(15,10)) // 15
 
 // Problem 6 — Easy: Count Even Numbers
+
+const countEven =(number)=> {
+  let count=0;
+  for (let i=0;i<number.length;i++){
+    if( number[i] % 2 === 0 ){
+    count++;
+  }
+  }
+  return count;
+}
+
+console.log(countEven([2, 4, 8]));
