@@ -16,10 +16,10 @@ const multiply = numbers => numbers.map(number => number * 3);
 console.log(multiply(numbers)) // [ 3, 6, 9, 12, 15 ]
 
 // Problem 4 — Easy: Add Two Numbers
-const add =( a, b )=> a + b;
+const add =(a, b)=> a + b;
 console.log(add(5,3)) // 8
 
 // Problem 5 — Easy: Find the Largest Number
-const findLargest =(a,b)=> a > b ? a:b;
+const findLargest =(a, b)=> a > b ? a:b;
 console.log(findLargest(15,10))
 
