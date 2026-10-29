@@ -23,3 +23,4 @@ console.log(add(5,3)) // 8
 const findLargest =(a, b)=> a > b ? a:b;
 console.log(findLargest(15,10))
 
+// Problem 6 — Easy: Count Even Numbers
