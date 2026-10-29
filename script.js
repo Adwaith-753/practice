@@ -39,3 +39,9 @@ console.log(countEven([2, 4, 8])); // 3
 // Problem 7 — Easy: Double Each Number in an Array
 const doubleNumbers = numbers => numbers.map(number => number * 2);
 console.log(doubleNumbers([1, 2, 3, 4])) // [ 2, 4, 6, 8 ]
+
+// Problem 8 — Easy: Filter Numbers Greater Than 10
+const filterGreaterThan10 = numbers => numbers.filter(number => number > 10);
+console.log(filterGreaterThan10([5, 12, 8, 20, 15]));   // [12, 20, 15]
+
+
