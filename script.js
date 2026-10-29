@@ -46,4 +46,15 @@ console.log(filterGreaterThan10([5, 12, 8, 20, 15]));   // [12, 20, 15]
 
 // Problem 9 — Easy: Sum All Numbers in an Array
 const sumArray = numbers => numbers.reduce((acc, curr) => acc + curr, 0);
-console.log(sumArray([1, 2, 3, 4]));   
+console.log(sumArray([1, 2, 3, 4]));   //10
+
+const getNames = people => people.map(person => person.name);
+
+let result=getNames([
+  { name: "Alice", age: 22 },
+  { name: "Bob", age: 25 },
+  { name: "Charlie", age: 30 }
+]);
+
+console.log(result) //[ 'Alice', 'Bob', 'Charlie' ]
+
