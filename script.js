@@ -24,7 +24,6 @@ const findLargest =(a, b)=> a > b ? a:b;
 console.log(findLargest(15,10)) // 15
 
 // Problem 6 — Easy: Count Even Numbers
-
 const countEven =(number)=> {
   let count=0;
   for (let i=0;i<number.length;i++){
@@ -36,3 +35,7 @@ const countEven =(number)=> {
 }
 
 console.log(countEven([2, 4, 8])); // 3
+
+// Problem 7 — Easy: Double Each Number in an Array
+const doubleNumbers = numbers => numbers.map(number => number * 2);
+console.log(doubleNumbers([1, 2, 3, 4])) // [ 2, 4, 6, 8 ]
