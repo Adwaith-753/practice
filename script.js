@@ -21,6 +21,6 @@ console.log(add(5,3)) // 8
 
 // Problem 5 — Easy: Find the Largest Number
 const findLargest =(a, b)=> a > b ? a:b;
-console.log(findLargest(15,10))
+console.log(findLargest(15,10)) // 15
 
 // Problem 6 — Easy: Count Even Numbers
