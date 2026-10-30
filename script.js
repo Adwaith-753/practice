@@ -97,5 +97,11 @@ const getUppercaseNames = people =>
 console.log(getUppercaseNames([
   { name: "Alice" },
   { name: "Bob" },
-  { name: "Charlie" }
-]))
+  { name: "Charlie" }    // [ 'ALICE', 'BOB', 'CHARLIE' ]
+]))  
+
+// Problem 14 — Easy: Find the First Even Number
+const findFirstEven = number =>
+  number.find(number => number % 2 === 0);
+
+console.log(findFirstEven([1, 3, 6, 8, 10])) //6
