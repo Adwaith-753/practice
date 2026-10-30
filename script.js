@@ -101,7 +101,7 @@ console.log(getUppercaseNames([
 ]))  
 
 // Problem 14 — Easy: Find the First Even Number
-const findFirstEven = number =>
-  number.find(number => number % 2 === 0);
+const findFirstEven = numbers =>
+  numbers.find(num => num % 2 === 0);
 
-console.log(findFirstEven([1, 3, 6, 8, 10])) //6
+console.log(findFirstEven([1, 3, 6, 8, 10])); // 6
