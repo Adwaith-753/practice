@@ -90,4 +90,12 @@ let result=getTotalPrice([
 
 console.log(result) //620
 
+// Problem 13 — Easy: Convert Names to Uppercase
+const getUppercaseNames = people =>
+  people.map(person => person.name.toUpperCase());
 
+console.log(getUppercaseNames([
+  { name: "Alice" },
+  { name: "Bob" },
+  { name: "Charlie" }
+]))
